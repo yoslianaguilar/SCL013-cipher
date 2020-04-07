@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Secret Lovers</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <img src="./imagenes/banner lovers.jpg" width="100%" />
+    </header>
+    <form>
+        <div class="grilla" id="desp">
+            <div>
+                <h2>Escribe Mensaje a Cifrar</h2>
+                <textarea id="mensaje_cifrar" cols="30" rows="10" class="grid-item"></textarea>
+            </div>
+
+            <div>
+                <h2>Mensaje Cifrado</h2>
+                <textarea id="mensaje_cifrado" readonly="readonly" cols="30" rows="10" class="grid-item"></textarea>
+            </div>
+        </div>
+        <div class="super">
+            <p>Desplazar: <input type="text" min="1" max="40" id="desplazar"></p>
+            <input type="button" class="grid-item" id="cifrar" value="Cifrar" onclick="validar()">
+            <input type="button" class="grid-item" id="decifrar" value="Decifrar" onclick="cifra()">
+            <input type="reset" id="eliminar" value="Limpiar">
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <footer class="pie">
+        Copyright© 2020 - SecretLovers - Todos los derechos reservados
+    </footer>
+    <script src="index.js"></script>
+    <script src="cipher.js"></script>
+</body>
+
+</html>
