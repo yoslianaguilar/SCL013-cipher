@@ -12,7 +12,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
-#cifrar{
+#Cifrar{
  padding: 10px;
   font-weight: 50;
   font-size: 20px;
@@ -21,11 +21,11 @@ textarea {
   border-radius: 6px;
 }
 
-#cifrar:hover {
+#Cifrar:hover {
 background-color:#333333;
 }
 
-#decifrar{
+#Decifrar{
 padding: 10px;
 font-weight: 50;
 font-size: 20px;
@@ -33,7 +33,7 @@ color: #ffffff;
 background-color: #e40456dc;
 border-radius: 6px;
 }
-#decifrar:hover {
+#Decifrar:hover {
 background-color:#333333;
 }
 
