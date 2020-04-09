@@ -1,5 +1,7 @@
 body{
 background-color: transparent;
+padding: 1%;
+margin-top: 0cm;
 }
 textarea {
   text-transform: uppercase;
