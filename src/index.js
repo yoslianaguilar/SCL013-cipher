@@ -1,11 +1,11 @@
 Cifrar.addEventListener("click", cifraMen)
-
 function cifraMen() {
     let men_code = "";
     let mensa = "";
     let num = document.getElementById("desplazar").value;
     let largo = document.getElementById("mensaje_cifrar").value;
     let largo1 = document.getElementById("mensaje_cifrar").value.length;
+
 
     for (a = 0; a < largo1; a++) {
         men_code = ((largo.charCodeAt([a]) - 65 + parseInt(num)) % 26 + 65);
@@ -33,5 +33,6 @@ function deCifra() {
     }
     document.getElementById("mensaje_cifrado").value = mensa1;
 }
+
 
 
