@@ -1,8 +1,8 @@
 export function cifrar(mensaje, desplazamiento) {
     let codigoAscii = "";
     let resultado = "";
-    const largo = mensaje.length
-    for (let posicion = 0; posicion < largo; posicion++) {
+    const largo = mensaje.length // obtiene el largo total del mensaje a cifrar
+    for (let posicion = 0; posicion < largo; posicion++) { // este for recorre desde la primera letra del mensaje hasta la ultima
         var letraEnPosicion = mensaje.charCodeAt(posicion);
         codigoAscii = ((letraEnPosicion - 65 + parseInt(desplazamiento)) % 26 + 65);
 
