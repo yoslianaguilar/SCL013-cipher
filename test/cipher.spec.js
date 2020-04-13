@@ -7,7 +7,7 @@ describe('cipher', () => {
     expect(typeof encode).toBe('object');
   });
 
-  describe('cipher.cifrar', () => {
+  describe('cipher.encode', () => {
 
     test('should be a function', () => {
       expect(typeof cipher.encode).toBe('function');
@@ -19,7 +19,7 @@ describe('cipher', () => {
 
   });
 
-  describe('cipher.descifrar', () => {
+  describe('cipher.decode', () => {
 
     test('should be a function', () => {
       expect(typeof cipher.decode).toBe('function');
