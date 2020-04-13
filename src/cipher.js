@@ -14,11 +14,11 @@ export function cifrar(mensaje, desplazamiento) {
 export function descifrar(mensaje, desplazamiento) {
     let codigoAscii = "";
     let resultado = "";
-    const largo = mensaje.length;
-    for (let posicion = 0; posicion < largo; posicion++) {
-        codigoAscii = ((mensaje.charCodeAt(posicion) + 65 - parseInt(desplazamiento)) % 26 + 65);
+    const largo = mensaje.length; // obtiene el largo total del mensaje a cifrar
+    for (let posicion = 0; posicion < largo; posicion++) { // este for recorre desde la primera letra del mensaje hasta la ultima
+        codigoAscii = ((mensaje.charCodeAt(posicion) + 65 - parseInt(desplazamiento)) % 26 + 65); // convierte en codigo ascii cada letra del mensaje y la desplaza segun el numero de desplazamientos que indico el usuario
 
-        resultado = resultado + String.fromCharCode(codigoAscii);
+        resultado = resultado + String.fromCharCode(codigoAscii); // convierte el mensaje de codigo ascii a
     }
     return resultado;
 }
