@@ -6,7 +6,7 @@ document.getElementById('Descifrar').addEventListener('click', descifrarMensaje)
 export function cifrarMensaje() {
 
     let desplazamiento = document.getElementById("desplazar").value;
-    let mensaje = document.getElementById("mensaje_cifrar").value;
+    let mensaje = document.getElementById("mensaje_cifrar").value.toUpperCase();
 
     const resultado = cifrar(mensaje, desplazamiento);
     document.getElementById("mensaje_cifrado").value = resultado;
@@ -14,7 +14,7 @@ export function cifrarMensaje() {
 
 export function descifrarMensaje() {
     let desplazamiento = document.getElementById("desplazar").value;
-    let mensaje = document.getElementById("mensaje_cifrar").value;
+    let mensaje = document.getElementById("mensaje_cifrar").value.toUpperCase();
 
     const resultado = descifrar(mensaje, desplazamiento);
     document.getElementById("mensaje_cifrado").value = resultado;
