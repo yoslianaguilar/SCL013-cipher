@@ -3,6 +3,7 @@ background-color: transparent;
 padding: 2%;
 margin-top: 0cm;
 }
+
 textarea {
   text-transform: uppercase;
   resize: none;
@@ -14,6 +15,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
+
 #Cifrar{
  padding: 10px;
   font-weight: 50;
@@ -44,11 +46,13 @@ background-color:#333333;
   grid-template-columns: 49% 49%;
   column-gap: 2%;
 }
+
 #botones{
 display: inline-flex;
 grid-template-columns: 33% 33%;
 text-align: right;
 }
+
 .super {
   display: center;
   text-align: center;
@@ -56,6 +60,7 @@ text-align: right;
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
 #eliminar {
 padding: 10px;
 font-weight: 80;
@@ -64,14 +69,17 @@ color: #ffffff;
 background-color: #e40456dc;
 border-radius: 6px;
 }
+
 #eliminar:hover {
 background-color:#333333;
 }
+
 h2{
     text-align: center;
     font-family: sans-serif;
     color:#292626;  
 }
+
 p {
   font-family: sans-serif;
   color:#292626; 
@@ -79,12 +87,14 @@ p {
   .desplazar{
       width: 8%;
   }
+
   .pie{
   text-align: center;
   font-family: sans-serif;
   color:#292626;
   padding: 0%;
 }
+
 #regreso {
 text-decoration: none;
 font-family: sans-serif;
