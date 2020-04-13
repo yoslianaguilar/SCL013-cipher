@@ -1,32 +1,32 @@
-// Importamos el objeto `cipher`, que contiene los métodos `encode` y `decode`
+// Importamos el objeto `cipher`, que contiene los métodos `cifrar` y `descifrar`
 import cipher from '../src/cipher';
 
-describe('cipher', () => {
+describe('cifrar', () => {
 
   test('should be an object', () => {
-    expect(typeof cipher).toBe('object');
+    expect(typeof cifrar).toBe('object');
   });
 
-  describe('cipher.encode', () => {
+  describe('cipher.cifrar', () => {
 
     test('should be a function', () => {
-      expect(typeof cipher.encode).toBe('function');
+      expect(typeof cipher.cifrar).toBe('function');
     });
-    test('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
-      //completa este test!
+    test('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
+      expect(cipher.encode('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 33), 'HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
-    
+
   });
 
-  describe('cipher.decode', () => {
+  describe('cipher.descifrar', () => {
 
     test('should be a function', () => {
-      expect(typeof cipher.decode).toBe('function');
+      expect(typeof cipher.descifrar).toBe('function');
     });
 
-    test('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
-      //completa este test!
+    test('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () => {
+      expect(cipher.descifrar('HIJKLMNOPQRSTUVWXYZABCDEFG', 33), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
 
   });
