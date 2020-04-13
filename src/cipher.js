@@ -11,7 +11,7 @@ export function encode(mensaje, desplazamiento) {
     return resultado;
 }
 
-export function de(mensaje, desplazamiento) {
+export function decode(mensaje, desplazamiento) {
     let codigoAscii = "";
     let resultado = "";
     const largo = mensaje.length; // obtiene el largo total del mensaje a cifrar

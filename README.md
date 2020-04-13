@@ -14,3 +14,4 @@ Los usuarios de Secret Lovers están en un rango de edad desde los 18 a 55 años
 En relación a colores, elegimos una gama de colores neutrales, nuestro publico objetivo son personas adultas, por eso nos hemos inclinado a colores como: negro, gris, blanco y fucsia el cual busca destacar ciertas acciones como los botones de Cifrar y Descifrar.
 
 Secret Lovers busca mantener la discreción en conversaciones, de forma sencilla, rapida y secreta.
+
