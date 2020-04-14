@@ -15,4 +15,4 @@ En relación a colores, elegimos una gama de colores neutrales, nuestro publico 
 
 Secret Lovers busca mantener la discreción en conversaciones, de forma sencilla, rapida y secreta.
 
-![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
+![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
