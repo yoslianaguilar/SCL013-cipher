@@ -15,4 +15,9 @@ En relación a colores, elegimos una gama de colores neutrales, nuestro publico 
 
 Secret Lovers busca mantener la discreción en conversaciones, de forma sencilla, rapida y secreta.
 
-(./src/imagenes/banner.jpg)
+##Prototipos Iniciales
+
+![PROTOTIPO UNO](./src/imagenes/Prototipo1.jpg)
+![PROTOTIPO DOS](./src/imagenes/Prototipo2.jpg)
+![PROTOTIPO TRES](./src/imagenes/Prototipo3.jpg)
+
