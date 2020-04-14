@@ -1,24 +1,21 @@
-export function encode(mensaje, desplazamiento) {
+export function encode(string, offset) {
     let codigoAscii = "";
     let resultado = "";
-    const largo = mensaje.length // obtiene el largo total del mensaje a cifrar
-    for (let posicion = 0; posicion < largo; posicion++) { // este for recorre desde la primera letra del mensaje hasta la ultima
-        var letraEnPosicion = mensaje.charCodeAt(posicion);
-        codigoAscii = ((letraEnPosicion - 65 + parseInt(desplazamiento)) % 26 + 65);
+    for (let posicion = 0; posicion < (string.length); posicion++) {
+        var letraEnPosicion = string.charCodeAt(posicion);
+        codigoAscii = ((letraEnPosicion - 65 + parseInt(offset)) % 26 + 65);
 
-        resultado = resultado + String.fromCharCode(codigoAscii);
+        resultado += String.fromCharCode(codigoAscii);
     }
     return resultado;
 }
 
-export function decode(mensaje, desplazamiento) {
+export function decode(string, offset) {
     let codigoAscii = "";
     let resultado = "";
-    const largo = mensaje.length; // obtiene el largo total del mensaje a cifrar
-    for (let posicion = 0; posicion < largo; posicion++) { // este for recorre desde la primera letra del mensaje hasta la ultima
-        codigoAscii = ((mensaje.charCodeAt(posicion) + 65 - parseInt(desplazamiento)) % 26 + 65); // convierte en codigo ascii cada letra del mensaje y la desplaza segun el numero de desplazamientos que indico el usuario
-
-        resultado = resultado + String.fromCharCode(codigoAscii); // convierte el mensaje de codigo ascii a
+    for (let posicion = 0; posicion < (string.length); posicion++) {
+        codigoAscii = ((string.charCodeAt(posicion) + 65 - parseInt(offset)) % 26 + 65);
+        resultado += String.fromCharCode(codigoAscii);
     }
     return resultado;
 }

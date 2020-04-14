@@ -15,3 +15,4 @@ En relación a colores, elegimos una gama de colores neutrales, nuestro publico 
 
 Secret Lovers busca mantener la discreción en conversaciones, de forma sencilla, rapida y secreta.
 
+<a href= "./src/imagenes/banner.jpg"></a>
