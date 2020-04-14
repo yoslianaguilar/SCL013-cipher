@@ -26,4 +26,4 @@ Secret Lovers busca mantener la discreción en conversaciones, de forma sencilla
 ![CIFRADO](./src/imagenes/ciphersecret.jpg)
 
 ## Versión Movil
-![CIFRADO](./src/imagenes/versionmovil.jpg)
+            ![CIFRADO](./src/imagenes/versionmovil.jpg)
